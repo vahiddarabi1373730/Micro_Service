@@ -1,0 +1,15 @@
+D:\micro_service\Micro_Service\Services\Catalog.Application\bin\Debug\net8.0\Catalog.Application.deps.json
+D:\micro_service\Micro_Service\Services\Catalog.Application\bin\Debug\net8.0\Catalog.Application.dll
+D:\micro_service\Micro_Service\Services\Catalog.Application\bin\Debug\net8.0\Catalog.Application.pdb
+D:\micro_service\Micro_Service\Services\Catalog.Application\bin\Debug\net8.0\Catalog.Core.dll
+D:\micro_service\Micro_Service\Services\Catalog.Application\bin\Debug\net8.0\Catalog.Core.pdb
+D:\micro_service\Micro_Service\Services\Catalog.Application\obj\Debug\net8.0\Catalog.Application.csproj.AssemblyReference.cache
+D:\micro_service\Micro_Service\Services\Catalog.Application\obj\Debug\net8.0\Catalog.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\micro_service\Micro_Service\Services\Catalog.Application\obj\Debug\net8.0\Catalog.Application.AssemblyInfoInputs.cache
+D:\micro_service\Micro_Service\Services\Catalog.Application\obj\Debug\net8.0\Catalog.Application.AssemblyInfo.cs
+D:\micro_service\Micro_Service\Services\Catalog.Application\obj\Debug\net8.0\Catalog.Application.csproj.CoreCompileInputs.cache
+D:\micro_service\Micro_Service\Services\Catalog.Application\obj\Debug\net8.0\Catalog..75771DFE.Up2Date
+D:\micro_service\Micro_Service\Services\Catalog.Application\obj\Debug\net8.0\Catalog.Application.dll
+D:\micro_service\Micro_Service\Services\Catalog.Application\obj\Debug\net8.0\refint\Catalog.Application.dll
+D:\micro_service\Micro_Service\Services\Catalog.Application\obj\Debug\net8.0\Catalog.Application.pdb
+D:\micro_service\Micro_Service\Services\Catalog.Application\obj\Debug\net8.0\ref\Catalog.Application.dll

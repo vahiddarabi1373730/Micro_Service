@@ -1,0 +1,12 @@
+D:\micro_service\Micro_Service\Services\Catalog.Core\bin\Debug\net8.0\Catalog.Core.deps.json
+D:\micro_service\Micro_Service\Services\Catalog.Core\bin\Debug\net8.0\Catalog.Core.dll
+D:\micro_service\Micro_Service\Services\Catalog.Core\bin\Debug\net8.0\Catalog.Core.pdb
+D:\micro_service\Micro_Service\Services\Catalog.Core\obj\Debug\net8.0\Catalog.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\micro_service\Micro_Service\Services\Catalog.Core\obj\Debug\net8.0\Catalog.Core.AssemblyInfoInputs.cache
+D:\micro_service\Micro_Service\Services\Catalog.Core\obj\Debug\net8.0\Catalog.Core.AssemblyInfo.cs
+D:\micro_service\Micro_Service\Services\Catalog.Core\obj\Debug\net8.0\Catalog.Core.csproj.CoreCompileInputs.cache
+D:\micro_service\Micro_Service\Services\Catalog.Core\obj\Debug\net8.0\Catalog.Core.dll
+D:\micro_service\Micro_Service\Services\Catalog.Core\obj\Debug\net8.0\refint\Catalog.Core.dll
+D:\micro_service\Micro_Service\Services\Catalog.Core\obj\Debug\net8.0\Catalog.Core.pdb
+D:\micro_service\Micro_Service\Services\Catalog.Core\obj\Debug\net8.0\ref\Catalog.Core.dll
+D:\micro_service\Micro_Service\Services\Catalog.Core\obj\Debug\net8.0\Catalog.Core.csproj.AssemblyReference.cache
