@@ -8,6 +8,8 @@ public static class ProductBrandSeadData
 {
     public static void SeadData(IMongoCollection<ProductBrand> collection)
     {
+        var existCollection = collection.Find(x => true).Any();
+        if (existCollection) return;
         var path=Path.Combine(AppContext.BaseDirectory,"Data","SeadData","brands.json");
         if (!File.Exists(path))
         {

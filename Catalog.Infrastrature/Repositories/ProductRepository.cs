@@ -13,15 +13,16 @@ public class ProductRepository(ICatalogContext context) : IProductRepository
     {
         var builder = Builders<Product>.Filter;
         var filters = builder.Empty;
-        FilterDefinition(specParams, filters, builder);
-        SortDefinition<Product> sort;
-        DefinitionSort(specParams,out sort);
+        filters = FilterDefinition(specParams, filters, builder);
         var count = await GetTotalCount(filters);
+        SortDefinition<Product> sort;
+        DefinitionSort(specParams, out sort);
         var data = await GetData(specParams, filters, sort);
         return new Pagination<Product>(specParams.PageSize, specParams.PageIndex, (int)count, data);
     }
 
-    private async Task<List<Product>> GetData(CatalogSpecParams specParams, FilterDefinition<Product> filters, SortDefinition<Product> sort)
+    private async Task<List<Product>> GetData(CatalogSpecParams specParams, FilterDefinition<Product> filters,
+        SortDefinition<Product> sort)
     {
         return await context.Products.Find(filters).Sort(sort).Skip(specParams.PageSize * (specParams.PageIndex - 1))
             .Limit(specParams.PageSize).ToListAsync();
@@ -29,6 +30,16 @@ public class ProductRepository(ICatalogContext context) : IProductRepository
 
     private async Task<long> GetTotalCount(FilterDefinition<Product> filters)
     {
+        if (context is null)
+        {
+            throw new Exception("context are null");
+        }
+
+        if (filters is null)
+        {
+            throw new Exception("Filters are null");
+        }
+
         return await context.Products.CountDocumentsAsync(filters);
     }
 

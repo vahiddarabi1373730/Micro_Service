@@ -13,3 +13,4 @@ D:\micro_service\Micro_Service\Services\Catalog.Application\obj\Debug\net8.0\Cat
 D:\micro_service\Micro_Service\Services\Catalog.Application\obj\Debug\net8.0\refint\Catalog.Application.dll
 D:\micro_service\Micro_Service\Services\Catalog.Application\obj\Debug\net8.0\Catalog.Application.pdb
 D:\micro_service\Micro_Service\Services\Catalog.Application\obj\Debug\net8.0\ref\Catalog.Application.dll
+D:\micro_service\Micro_Service\Services\Catalog.Application\obj\Debug\net8.0\Catalog.Application.sourcelink.json

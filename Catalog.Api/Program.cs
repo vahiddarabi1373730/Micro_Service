@@ -1,5 +1,7 @@
 using System.Reflection;
 using Asp.Versioning;
+using Catalog.Application.Mapper;
+using Catalog.Application.Queries;
 using Catalog.Core.Repositories;
 using Catalog.Infrastrature.Data;
 using Catalog.Infrastrature.Repositories;
@@ -9,13 +11,19 @@ var builder = WebApplication.CreateBuilder(args);
 
 
 // Register AutoMapper
-builder.Services.AddAutoMapper(typeof(Program));
+builder.Services.AddAutoMapper(typeof(ProfileMapper));
 
 //Register MediatR
 // builder.Services.AddTransient<IRequestHandler<AddProductCommand, ProductResponse>, AddProductCommandHandler>();
 // builder.Services.AddTransient<IRequestHandler<deleteProductCommand,bool>,deleteProductCommandHandler>();
 //به جای این:
-builder.Services.AddMediatR(x => x.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
+var assemblies = new Assembly[]
+{
+    Assembly.GetExecutingAssembly(),
+    typeof(GetAllProductByBrandNameQueryHandler).Assembly
+};
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(assemblies));
+// builder.Services.AddMediatR(x => x.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
 
 
 //Config Swagger

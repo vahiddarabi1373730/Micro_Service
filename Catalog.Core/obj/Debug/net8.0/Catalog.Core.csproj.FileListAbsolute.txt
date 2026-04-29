@@ -10,3 +10,4 @@ D:\micro_service\Micro_Service\Services\Catalog.Core\obj\Debug\net8.0\refint\Cat
 D:\micro_service\Micro_Service\Services\Catalog.Core\obj\Debug\net8.0\Catalog.Core.pdb
 D:\micro_service\Micro_Service\Services\Catalog.Core\obj\Debug\net8.0\ref\Catalog.Core.dll
 D:\micro_service\Micro_Service\Services\Catalog.Core\obj\Debug\net8.0\Catalog.Core.csproj.AssemblyReference.cache
+D:\micro_service\Micro_Service\Services\Catalog.Core\obj\Debug\net8.0\Catalog.Core.sourcelink.json

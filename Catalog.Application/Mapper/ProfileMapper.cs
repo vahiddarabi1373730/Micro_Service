@@ -12,9 +12,9 @@ public class ProfileMapper : Profile
     {
         CreateMap<ProductBrand, ProductBrandResponse>().ReverseMap();
         CreateMap<ProductType, ProductTypeResponse>().ReverseMap();
-        CreateMap<Product, ProductResponse>().ReverseMap();
+        CreateMap<ProductResponse, Product>().ReverseMap();
         CreateMap<AddProductCommand, Product>().ReverseMap();
         CreateMap<UpdateProductCommand, Product>().ReverseMap();
-        CreateMap<Pagination<Product>, Pagination<ProductResponse>>().ReverseMap();
+        CreateMap<Pagination<Product>, Pagination<ProductResponse>>();
     }
 }

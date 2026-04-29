@@ -14,13 +14,13 @@ public class CatalogContext:ICatalogContext
     {
         var client = new MongoClient(configuration.GetValue<string>("DataBaseSettings:ConnectionString"));
         var database=client.GetDatabase(configuration.GetValue<string>("DataBaseSettings:DatabaseName"));
-        var products=database.GetCollection<Product>(configuration.GetValue<string>("DataBaseSettings:CollectionName"));
-        var brands=database.GetCollection<ProductBrand>(configuration.GetValue<string>("DataBaseSettings:BrandsCollection"));
-        var types = database.GetCollection<ProductType>(configuration.GetValue<string>("DataBaseSettings:TypesCollection"));
+        Products=database.GetCollection<Product>(configuration.GetValue<string>("DataBaseSettings:CollectionName"));
+        ProductBrands=database.GetCollection<ProductBrand>(configuration.GetValue<string>("DataBaseSettings:BrandsCollection"));
+        ProductTypes = database.GetCollection<ProductType>(configuration.GetValue<string>("DataBaseSettings:TypesCollection"));
         
-        ProductSeadData.SeadData(products);
-        ProductBrandSeadData.SeadData(brands);
-        ProductTypeSeadData.SeadData(types);
+        ProductSeadData.SeadData(Products);
+        ProductBrandSeadData.SeadData(ProductBrands);
+        ProductTypeSeadData.SeadData(ProductTypes);
         
         
     }

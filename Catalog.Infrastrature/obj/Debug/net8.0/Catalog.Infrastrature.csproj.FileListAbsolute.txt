@@ -15,3 +15,7 @@ D:\micro_service\Micro_Service\Services\Catalog.Infrastrature\obj\Debug\net8.0\C
 D:\micro_service\Micro_Service\Services\Catalog.Infrastrature\obj\Debug\net8.0\refint\Catalog.Infrastrature.dll
 D:\micro_service\Micro_Service\Services\Catalog.Infrastrature\obj\Debug\net8.0\Catalog.Infrastrature.pdb
 D:\micro_service\Micro_Service\Services\Catalog.Infrastrature\obj\Debug\net8.0\ref\Catalog.Infrastrature.dll
+D:\micro_service\Micro_Service\Services\Catalog.Infrastrature\obj\Debug\net8.0\Catalog.Infrastrature.sourcelink.json
+D:\micro_service\Micro_Service\Services\Catalog.Infrastrature\bin\Debug\net8.0\Data\SeadData\products.json
+D:\micro_service\Micro_Service\Services\Catalog.Infrastrature\bin\Debug\net8.0\Data\SeadData\brands.json
+D:\micro_service\Micro_Service\Services\Catalog.Infrastrature\bin\Debug\net8.0\Data\SeadData\types.json

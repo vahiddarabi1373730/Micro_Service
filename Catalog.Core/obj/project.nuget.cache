@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tyg6bntPb6U=",
+  "dgSpecHash": "aeo2dPBs148=",
   "success": true,
   "projectFilePath": "D:\\micro_service\\Micro_Service\\Services\\Catalog.Core\\Catalog.Core.csproj",
   "expectedPackageFiles": [
@@ -33,7 +33,7 @@
     {
       "code": "NU1900",
       "level": "Warning",
-      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "message": "Error occurred while getting package vulnerability data: The SSL connection could not be established, see inner exception.",
       "projectPath": "D:\\micro_service\\Micro_Service\\Services\\Catalog.Core\\Catalog.Core.csproj",
       "warningLevel": 1,
       "filePath": "D:\\micro_service\\Micro_Service\\Services\\Catalog.Core\\Catalog.Core.csproj",

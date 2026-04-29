@@ -59,3 +59,7 @@ D:\micro_service\Micro_Service\Services\Catalog.Api\bin\Debug\net8.0\ZstdSharp.d
 D:\micro_service\Micro_Service\Services\Catalog.Api\bin\Debug\net8.0\Asp.Versioning.Abstractions.dll
 D:\micro_service\Micro_Service\Services\Catalog.Api\bin\Debug\net8.0\Asp.Versioning.Http.dll
 D:\micro_service\Micro_Service\Services\Catalog.Api\bin\Debug\net8.0\Asp.Versioning.Mvc.dll
+D:\micro_service\Micro_Service\Services\Catalog.Api\obj\Debug\net8.0\Catalog.Api.sourcelink.json
+D:\micro_service\Micro_Service\Services\Catalog.Api\bin\Debug\net8.0\Data\SeadData\products.json
+D:\micro_service\Micro_Service\Services\Catalog.Api\bin\Debug\net8.0\Data\SeadData\brands.json
+D:\micro_service\Micro_Service\Services\Catalog.Api\bin\Debug\net8.0\Data\SeadData\types.json

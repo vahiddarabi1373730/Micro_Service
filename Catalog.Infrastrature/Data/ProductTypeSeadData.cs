@@ -8,6 +8,8 @@ public static class ProductTypeSeadData
 {
     public static void SeadData(IMongoCollection<ProductType> collection)
     {
+        var existCollection = collection.Find(x => true).Any();
+        if (existCollection) return;
         var path=Path.Combine(AppContext.BaseDirectory,"Data","SeadData","types.json");
         if (!File.Exists(path))
         {

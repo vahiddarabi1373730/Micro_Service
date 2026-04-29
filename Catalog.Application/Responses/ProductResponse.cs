@@ -9,6 +9,6 @@ public class ProductResponse
     public string Description { get; set; }
     public decimal Price { get; set; }
     public string ImageFile { get; set; }
-    public ProductBrandResponse  Types { get; set; }
-    public ProductTypeResponse Brands { get; set; }
+    public ProductTypeResponse  Types { get; set; }
+    public ProductBrandResponse Brands { get; set; }
 }
