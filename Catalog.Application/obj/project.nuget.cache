@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DvzUywORA9c=",
+  "dgSpecHash": "Ci5SviisS7w=",
   "success": true,
   "projectFilePath": "D:\\micro_service\\Micro_Service\\Services\\Catalog.Application\\Catalog.Application.csproj",
   "expectedPackageFiles": [
@@ -34,13 +34,16 @@
   ],
   "logs": [
     {
-      "code": "NU1900",
+      "code": "NU1903",
       "level": "Warning",
-      "message": "Error occurred while getting package vulnerability data: The SSL connection could not be established, see inner exception.",
+      "message": "Package 'AutoMapper' 14.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-rvv3-g6hj-g44x",
       "projectPath": "D:\\micro_service\\Micro_Service\\Services\\Catalog.Application\\Catalog.Application.csproj",
       "warningLevel": 1,
       "filePath": "D:\\micro_service\\Micro_Service\\Services\\Catalog.Application\\Catalog.Application.csproj",
-      "targetGraphs": []
+      "libraryId": "AutoMapper",
+      "targetGraphs": [
+        "net8.0"
+      ]
     }
   ]
 }

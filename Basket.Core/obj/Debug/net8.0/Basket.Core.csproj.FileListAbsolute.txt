@@ -1,0 +1,12 @@
+D:\micro_service\Micro_Service\Services\Basket.Core\bin\Debug\net8.0\Basket.Core.deps.json
+D:\micro_service\Micro_Service\Services\Basket.Core\bin\Debug\net8.0\Basket.Core.dll
+D:\micro_service\Micro_Service\Services\Basket.Core\bin\Debug\net8.0\Basket.Core.pdb
+D:\micro_service\Micro_Service\Services\Basket.Core\obj\Debug\net8.0\Basket.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\micro_service\Micro_Service\Services\Basket.Core\obj\Debug\net8.0\Basket.Core.AssemblyInfoInputs.cache
+D:\micro_service\Micro_Service\Services\Basket.Core\obj\Debug\net8.0\Basket.Core.AssemblyInfo.cs
+D:\micro_service\Micro_Service\Services\Basket.Core\obj\Debug\net8.0\Basket.Core.csproj.CoreCompileInputs.cache
+D:\micro_service\Micro_Service\Services\Basket.Core\obj\Debug\net8.0\Basket.Core.sourcelink.json
+D:\micro_service\Micro_Service\Services\Basket.Core\obj\Debug\net8.0\Basket.Core.dll
+D:\micro_service\Micro_Service\Services\Basket.Core\obj\Debug\net8.0\refint\Basket.Core.dll
+D:\micro_service\Micro_Service\Services\Basket.Core\obj\Debug\net8.0\Basket.Core.pdb
+D:\micro_service\Micro_Service\Services\Basket.Core\obj\Debug\net8.0\ref\Basket.Core.dll
