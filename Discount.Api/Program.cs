@@ -7,6 +7,7 @@ using Discount.Application.Queries;
 using Discount.Core.Repositories;
 using Infrastructure.Extension;
 using Infrastructure.Repositories;
+using Microsoft.AspNetCore.Server.Kestrel.Core;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -27,6 +28,19 @@ var assemblies = new Assembly[]
     typeof(GetDiscountByProductIdQueryHandler).Assembly
 };
 builder.Services.AddMediatR(c => c.RegisterServicesFromAssemblies(assemblies));
+
+
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.ListenLocalhost(9003, listenOptions =>
+    {
+        listenOptions.Protocols = HttpProtocols.Http1;
+    } );
+    options.ListenLocalhost(9002, listenOptions =>
+    {
+        listenOptions.Protocols = HttpProtocols.Http2;
+    } );
+});
 
 
 //////////////////////////////////////////Config ApiVersioning
