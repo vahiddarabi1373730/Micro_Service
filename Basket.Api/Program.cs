@@ -1,13 +1,16 @@
 using System.Reflection;
 using Asp.Versioning;
+using Basket.Application.External;
 using Basket.Application.Mapper;
 using Basket.Application.Queries;
 using Basket.Core.Repositories;
 using Basket.Infrastructure.Repositories;
+using Discount.Application.Protos.discount.proto;
 using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
+AppContext.SetSwitch("System.Net.Http.SocketsHttpHandler.Http2UnencryptedSupport", true);
 
 
 //////////////////Config Swagger
@@ -19,13 +22,15 @@ builder.Services.AddEndpointsApiExplorer();
 
 ///////////////////////Config AutoMapper
 builder.Services.AddAutoMapper(typeof(ProfileMapper));
+
+
+/////////////////////////////////////ConfigMediatR
 var assemblies = new Assembly[]
 {
     Assembly.GetExecutingAssembly(),
     typeof(GetBasketQueryHandler).Assembly
 };
 
-/////////////////////////////////////ConfigMediatR
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(assemblies));
 
 
@@ -41,6 +46,14 @@ builder.Services.AddApiVersioning(options =>
 
 /////////////////////////////////////DI
 builder.Services.AddScoped<IBasketRepositories, BasketRepositories>();
+builder.Services.AddScoped<DiscountGrpcService>();
+
+
+////////////////////////////////////////Config Grpc
+builder.Services.AddGrpcClient<DiscountProtoServices.DiscountProtoServicesClient>(options =>
+{
+    options.Address = new Uri(builder.Configuration.GetValue<string>("GrpcSettings:DiscountUrl")!);
+});
 
 
 ///////////////////////////////////////Config Redis

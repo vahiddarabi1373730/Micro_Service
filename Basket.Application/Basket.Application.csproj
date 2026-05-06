@@ -6,14 +6,25 @@
         <Nullable>disable</Nullable>
     </PropertyGroup>
     
-    
     <ItemGroup>
         <ProjectReference Include="../Basket.Core/Basket.Core.csproj" />
     </ItemGroup>
-
+    
+    
+    <ItemGroup>
+        <Protobuf GrpcServices="Client" Include="D:\micro_service\Micro_Service\Services\Discount.Application\Protos\discount.proto">
+            <Link>Protos/discount.proto</Link>
+        </Protobuf>
+    </ItemGroup>
     <ItemGroup>
         <PackageReference Include="AutoMapper" Version="14.0.0" />
         <PackageReference Include="MediatR" Version="12.5.0" />
+        <PackageReference Include="Grpc.AspNetCore" Version="2.80.0" />
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="..\..\Discount\Discount.Application\Protos\">
+        <Link>Protos</Link>
+      </Folder>
     </ItemGroup>
 
 </Project>

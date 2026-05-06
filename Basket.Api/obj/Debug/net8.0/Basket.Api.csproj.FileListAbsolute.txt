@@ -55,3 +55,10 @@ D:\micro_service\Micro_Service\Services\Basket.Api\obj\Debug\net8.0\refint\Baske
 D:\micro_service\Micro_Service\Services\Basket.Api\obj\Debug\net8.0\Basket.Api.pdb
 D:\micro_service\Micro_Service\Services\Basket.Api\obj\Debug\net8.0\Basket.Api.genruntimeconfig.cache
 D:\micro_service\Micro_Service\Services\Basket.Api\obj\Debug\net8.0\ref\Basket.Api.dll
+D:\micro_service\Micro_Service\Services\Basket.Api\bin\Debug\net8.0\Google.Protobuf.dll
+D:\micro_service\Micro_Service\Services\Basket.Api\bin\Debug\net8.0\Grpc.AspNetCore.Server.dll
+D:\micro_service\Micro_Service\Services\Basket.Api\bin\Debug\net8.0\Grpc.AspNetCore.Server.ClientFactory.dll
+D:\micro_service\Micro_Service\Services\Basket.Api\bin\Debug\net8.0\Grpc.Core.Api.dll
+D:\micro_service\Micro_Service\Services\Basket.Api\bin\Debug\net8.0\Grpc.Net.Client.dll
+D:\micro_service\Micro_Service\Services\Basket.Api\bin\Debug\net8.0\Grpc.Net.ClientFactory.dll
+D:\micro_service\Micro_Service\Services\Basket.Api\bin\Debug\net8.0\Grpc.Net.Common.dll
